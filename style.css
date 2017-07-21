@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 Jul, 2017, 10:04:28 PM
+    Author     : NIHIR
+*/
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+a{
+    text-decoration: none; 
+    background-color: transparent; 
+    color:#ededed;
+}
+.header{
+    background-color:#000; 
+    color:#fff; 
+    border-color: #080808; 
+    min-height: 50px; 
+    height: auto;
+    border: 1px solid transparent;
+}
+.inner-head{
+    width:80%;
+    margin:auto;
+}
+.logo{
+    float: left; 
+    height: 50px; 
+    padding: 15px; 
+    font-size: 20px; 
+    font-weight: bold;
+}
+.header-link{
+    float:right; 
+    font-size:14px; 
+    height: 50px; 
+    padding: 15px 15px; 
+    font-size:16px; 
+    font-weight: bold;
+}
+.content{
+    min-height: 600px;
+}
+.banner-image{
+    padding-bottom: 50px; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    color: #f8f8f8; 
+    background: url(images/back.png) no-repeat center; 
+    background-size: cover;
+}
+.inner-banner-image{
+    padding-top: 12%; 
+    width:80%; 
+    margin:auto;
+}
+.banner-content{
+    position: relative; 
+    padding-top: 6%; 
+    padding-bottom: 6%; 
+    overflow:hidden; 
+    margin: auto;
+    margin-bottom: 12%; 
+    background-color: rgba(0, 0, 0, 0.9); 
+    max-width: 660px;
+}
+.button{
+    color: #fff; 
+    background-color: #c9302c; 
+    border-color: #ac2925; 
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125); 
+    padding: 10px 16px; 
+    font-size: 18px; 
+    border-radius: 6px;
+}
+.container{
+margin-bottom: 15px;
+}
+.central{
+    margin:auto;
+    width:1008px;
+    text-align: center;
+}
+.thumbs{
+    position: relative;
+    padding:5px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    height:auto;
+    width:300px;
+    float:left;
+    display: inline-block;
+    margin: 10px;
+    background-color: green;
+}
+img{
+    display: inline-block;
+    width: 300px;
+    height:300px;
+    margin: auto;
+}
+p{
+    padding-bottom: 2px;
+    font-family: Georgia;
+}
+.footer{
+    text-align: center;
+    height: 50px;
+    background-color: #000; 
+    color:#fff; 
+    font-size:14px;
+    clear: both;
+}
+.inner-footer{
+    padding-top: 5px;
+}
+#copyright{
+    font-family: 'Lobster', cursive;
+}
+.caption{
+    font-size: 12px;
+}
